@@ -1,0 +1,9 @@
+version: "0.1.0"
+name: Agents
+shorthand: agents
+description: Agents.md file for this flint
+
+install:
+  - source: AGENTS.md
+    dest: AGENTS.md
+    once: true
