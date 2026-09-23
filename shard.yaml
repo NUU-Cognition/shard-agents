@@ -1,10 +1,11 @@
 shard-spec: "0.1.0"
-version: "0.1.2"
+version: "0.1.3"
 name: Agents
 shorthand: agents
 description: AGENTS.md file providing agent configuration for this flint
-depends:
-  - NUU-Cognition/shard-flint
+dependencies:
+  - source: NUU-Cognition/shard-flint
+    version: "0.3.0"
 
 install:
   - source: AGENTS.md
